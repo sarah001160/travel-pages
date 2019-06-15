@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/all.css">	
+</head>
+<body>
+	
+	<div class="header">
+		<h1 class="title-color font-family">高雄旅遊資訊</h1>
+		<select name="district" id="district" >
+			<option value="------請選擇-------">------請選擇------</option>
+			<option value="楠梓區">楠梓區</option>
+			<option value="左營區">左營區</option>
+			<option value="鼓山區">鼓山區</option>
+			<option value="三民區">三民區</option>
+			<option value="苓雅區">苓雅區	</option>
+			<option value="新興區">新興區</option>
+			<option value="前金區">前金區	</option>
+			<option value="鹽埕區">鹽埕區</option>
+			<option value="前鎮區">前鎮區</option>
+			<option value="旗津區">旗津區</option>
+			<option value="小港區">小港區</option>
+
+		</select>
+	</div>
+<div class="wrap">
+	<nav class="topfour-district"><!--僅出現熱門的前四名區域-->
+		<h2>熱門行政區</h2>
+		<input type="button" class="title-color font-family bg-purple top-one btn" value="苓雅區">
+		<input type="button" class="title-color font-family bg-pink top-two btn" value="三民區">
+		<input type="button" class="title-color font-family bg-yellow top-three btn" value="新興區">
+		<input type="button" class="title-color font-family bg-blue top-four btn" value="鹽埕區">
+	</nav>
+	<div class="content">
+		<h3 class="showName font-family"><!--使用JS帶入被選定區域--></h3>
+		<ul class="list">
+			<!--li景點區,使用JS放入-->
+			
+		</ul>
+		<div class="clearfix"></div>
+		
+		<div class="gotop"><a href="#district"><img src="img/btn_goTop.png" alt=""></a></div>
+	</div>		
+
+	</div>	
+
+
+<div class="footer">
+	<div class="wrap">
+		<p class="text-center font-family title-color">高雄旅遊網</p>
+		<p class="text-center font-family orange-color">資料來源:高雄市政府</p>
+		
+	</div>
+</div>
+
+	
+	
+
+
+	<script src="js/all.js"></script>
+</body>
+</html>

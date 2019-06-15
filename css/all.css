@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*css reset ------------------------------------------*/
+
+.wrap{
+	max-width:1024px;
+	margin:0 auto;
+}
+.clearfix{ /*清除浮動*/
+	clear:both;
+}
+.opacity{
+	opacity:0.6;
+}
+
+.orange-color{
+	color:	#FFBB00;
+}
+.title-color{/*白色字體*/
+	color:white;
+}
+
+.font-bold{/*粗體字*/
+	font-weight: bold;
+}
+.text-center{/*置中*/
+text-align:center;
+}
+.font-family{
+font-family:微軟正黑體;
+}
+
+/*背景色*/
+.bg-purple{
+	background:#8A82CC;
+}
+.bg-pink{
+	background:#FFA782;
+}
+.bg-yellow{
+	background:#F5D105 ;
+}
+.bg-blue{
+	background:#559AC8;
+}
+
+h1{
+	text-align: center;
+	font-size:46px;
+	position:absolute;
+	top:89px;
+	left:380.5px;
+	right:378.5px;
+}
+.header{
+	background-image:url(../img/aa.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:380px;/*高度必須顯示,背景才會顯示*/
+	margin-top:0;
+	background-size:cover;
+	position:relative;
+}
+#district{
+	position:absolute;
+	top:225px;
+	left:400px;
+	width:452px;
+	height:48px;
+	color:black;
+	border:5px solid white;
+	border-radius:10px;
+	background-color: rgba(255,255,255,0.6);/*背景透明,文字不透明*/
+}
+.topfour-district h2{
+	margin:20px 0 0 20px;
+}
+.topfour-district{
+	position:absolute;
+	top:342px;
+	margin-left:112px;
+	width:800px;
+	height:112px;
+	background:white;
+	box-shadow:1px 1px 	#DDDDDD;
+	border:1px solid white;
+	border-radius:10px;
+}
+.topfour-district .btn{/*前四名熱門區專屬的按鈕*/
+	width:130px;
+	height:42px;
+	border:none;
+	border-radius:10px;
+	margin-top:10px;
+	margin-right:23px;
+	cursor:pointer;
+	font-size:18px;
+}
+.top-one{
+	margin-left:51px;
+}
+.content{
+	background:white;
+	padding-top:100px;
+	padding-left:30px;
+	height:auto;
+	margin-bottom:80px;
+}
+.content>ul>li{
+	display:block;
+	width:464px;
+	height:279px;
+	float:left;
+	box-shadow:1px 1px #DDDDDD;
+	background:white;
+	margin:9px;
+	position:relative;
+}
+
+.content .showName{
+	margin-left:458px;
+	margin-top:50px;
+	margin-bottom:30px;
+	font-size:30px;
+	color:#8A82CC;
+}
+.content .area{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:150px;
+	z-index:2;
+}
+
+
+.content ul li img{
+	width:464px;
+	height:155px;
+	position:relative;
+
+}
+.content .area h4{
+	margin-left:20px;
+	font-size:22px;
+	font-weight: bold;
+	font-family:微軟正黑體;
+	text-shadow:0.5px 0.5px black;
+	color:white;
+}
+.content .icon{
+	width:15px;
+	height:18px;
+	margin-right:5px;
+}
+.content .text-r{
+text-align:right;
+padding-left:5px;
+}
+.content .area ul li{
+	margin-top:10px;
+	margin-left:20px;
+	font-family:微軟正黑體;
+	text-indent:-14px;
+	font-size:12px;
+}
+
+.content .gotop{
+	position:absolute;
+	right:130px;
+}
+
+.footer{
+	background-color:#00AAAA;
+	height:90px;
+	padding:30px;
+}
+.footer p{
+	margin-top:20px;
+}
